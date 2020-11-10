@@ -5,7 +5,7 @@ const morgan   = require('morgan');
 const path = require('path');
 // config vars
 const port = process.env.PORT        || 3000;
-const db   = process.env.MONGODB_URI || 'mongodb+srv://helloreact:<password>@cluster0.wdpwh.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const db   = process.env.MONGODB_URI || 'mongodb://localhost/hellodb';
 
 // crear app
 const app = express();
